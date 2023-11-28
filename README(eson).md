@@ -140,7 +140,7 @@ function displayMessage(sender, message) {
 
 7.	Create a private Github repository called <firstname_lastname>-dt1-23 to version [1 point]
 
-	Private repository : DT1---LC1
+	Private repository : eson_anantharasa-dt1-23
 
 
 8.	Login to your Google Cloud Platform account [1 point]
