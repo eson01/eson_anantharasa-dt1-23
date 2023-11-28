@@ -1,11 +1,11 @@
-Subject: DT1
-Assignment: LC1
+**********************Subject: DT1
+Assignment: LC1**********************************
 
 
-Software Architecture
- 
+****Software Architecture
+ ********
 
-User Interface:
+**User Interface:**
 •	Denotes the interface by which consumers engage with the system, as in the case of a web application.
 
 Text Completion API:
@@ -31,15 +31,15 @@ Flow:
 •	The storage and retrieval of user-specific data is an elective feature of the database.
 
 
-Text completion website (bubble)
+**Text completion website (bubble)**
 My App link : 
 https://dt1-23-95608.bubbleapps.io/version-test
 
-Hugging Face API Key :  
+**Hugging Face API Key : ** 
 •	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
 •	Model : https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill
 
-Chatgpt script : 
+**Chatgpt script **: 
     <script>
         document.getElementById('chat_submit').addEventListener('click', async function () {
     // Get user input from the input field
@@ -100,7 +100,9 @@ function displayMessage(sender, message) {
 
  
 
-Detail: 
+
+
+************Detail: ************
 1.	Clone this repository locally on your machine.
 
 •	I cloned this repository in the name of DT1-1 
