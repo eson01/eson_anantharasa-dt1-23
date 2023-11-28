@@ -15,23 +15,26 @@ Text Completion API:
 •	An API that fulfils user interface requests for recommendations on text completion.
 •	Facilitates interaction between the language model and the user interface.
 
-Language Model: 
+**Language Model: 
 •	The fundamental element tasked with producing text completions.
 •	It could be a sophisticated language model such as GPT-3 in this instance.
 
-Database:
+**Database:
 •	User-specific information is stored, including preferences, history, and suggestions.
 •	To generate customised recommendations, the Text Completion API might engage in database interaction.
 
 External Database:
 •	The system may utilise external data sources, including context data, pre-trained models, or custom dictionaries, to improve text completion.
 
-Flow:
+**Flow:
+
 •	Text completion requests are transmitted from the User Interface to the Text Completion API.
 •	To generate suggestions, the Text Completion API communicates with the Language Model.
 •	External data sources may be employed by the Language Model to provide context and information.
 •	For presentation, the recommendations are returned to the user interface.
 •	The storage and retrieval of user-specific data is an elective feature of the database.
+
+
 
 
 **Text completion website (bubble)**
@@ -108,7 +111,7 @@ function displayMessage(sender, message) {
 ************Detail: ************
 1.	Clone this repository locally on your machine.
 
-	I cloned this repository in the name of DT1-1 
+	I cloned this repository in the name of eson_anantharasa-dt1-23
 
 
 
@@ -150,14 +153,15 @@ function displayMessage(sender, message) {
 
 9.	Start a new virtual machine (VM) [1 point]
 
-	Select Your Project:
-	Navigate to Compute Engine:
-	Create a New VM Instance:
-	Configure Boot Disk:
-	Configure Networking:
-	Configure Management, Security, and Disks:
-	Click "Create":
-	Wait for the VM to Start:
+Created VM with following steps
+	Select Your Project
+	Navigate to Compute Engine
+	Create a New VM Instance
+	Configure Boot Disk
+	Configure Networking
+	Configure Management, Security, and Disks
+	Click "Create"
+	Wait for the VM to Start
 	Access the VM
 
 
@@ -166,7 +170,6 @@ function displayMessage(sender, message) {
 10.	SSH into the virtual machine [1 point]
 	Debian OS was installed.
 	Click the "SSH" button next to the VM instance you want to access.
-	SSH Button
 	Used the Web-Based SSH Terminal to access VM 
 
 
